@@ -1,1 +1,2 @@
 # Be Immortal
+がんばるぞい．
