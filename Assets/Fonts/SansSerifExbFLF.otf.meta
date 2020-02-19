@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 43444ee9c270c4c4faff4ec77dbdbd36
+guid: c53bbb8cfb6c348358d66d78df2002e6
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,12 +8,11 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Butler
+  fontName: SansSerifExbFLF
   fontNames:
-  - Butler
+  - SansSerifExbFLF
   fallbackFontReferences:
-  - {fileID: 12800000, guid: 17212b6b44211448a8e843730ea684a9, type: 3}
-  - {fileID: 12800000, guid: 2c58501ff25d14d679df91e29bc741c3, type: 3}
+  - {fileID: 12800000, guid: 8fc83ccf5ba1a443e87127a23e41affb, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
