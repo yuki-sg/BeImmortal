@@ -6,11 +6,8 @@ using UnityEngine.SceneManagement;
 public class Load_Tutorial : MonoBehaviour
 {
 
-    void Update()
+   public void OnClick()
     {
-        if (Input.anyKey)
-        {
-            SceneManager.LoadScene("TutorialScene");
-        }
+        SceneManager.LoadScene("TutorialScene");
     }
 }
