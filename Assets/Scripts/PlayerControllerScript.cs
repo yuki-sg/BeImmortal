@@ -35,6 +35,8 @@ public class PlayerControllerScript : MonoBehaviour
 
         }
 
+
+        }
         //プレイヤの速度に応じてアニメーション速度を変える
         this.animator.speed = speedx / 2.0f;
     }
