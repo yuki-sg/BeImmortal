@@ -17,10 +17,10 @@ public class Distance2nd : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("player");
-        enemy1st = GameObject.Find("1stEnemy");
+        enemy1st = GameObject.Find("Boss");
         input_system = GameObject.Find("input_system");
         player_walk = GameObject.Find("Canvas/testPanel/player");
-        enemy_walk = GameObject.Find("Canvas/testPanel/1stEnemy");
+        enemy_walk = GameObject.Find("Canvas/testPanel/Boss");
     }
 
     // Update is called once per frame

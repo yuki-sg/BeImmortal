@@ -112,10 +112,11 @@ public class PressABXY : MonoBehaviour
                 //　キーを押しているかどうか
                 if (Input.anyKeyDown
                 && (!Input.GetMouseButton(0) && !Input.GetMouseButton(1) && !Input.GetMouseButton(2))
-                )
+                || Input.GetButtonDown("a") || Input.GetButtonDown("b")
+                || Input.GetButtonDown("x") || Input.GetButtonDown("y"))
                 {
                     //　今見ている文字とキーボードから打った文字が同じかどうか
-                    if (Input.GetKeyDown(nQJ[count]))
+                    if (Input.GetKeyDown(nQJ[count]) || Input.GetButtonDown(nQJ[count]))
                     {
                         // ここでテキストが表示されるようにしたい
                         switch (count)
