@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ResultScene.unity
     guid: 547d019de39484b01a984acff968b26c
+  - enabled: 1
+    path: Assets/Scenes/LoseResultScene.unity
+    guid: 5786c67c2069b5347998d0978990adb7
   m_configObjects: {}
