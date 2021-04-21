@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class GetTime : MonoBehaviour
 {
     // 測った時間を受け取る変数
-    int time;
+    float time;
 
     // 別階層のテキストUIを見つける
     public Text TimeText;
@@ -20,7 +20,7 @@ public class GetTime : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        time = TimeCount.getTime();
+        time = TimeCount2nd.getTime();
         print(time);
 
         UIJ = TimeText;

@@ -4,14 +4,14 @@ using UnityEngine;
 
 // ストップウォッチ
 
-public class TimeCount : MonoBehaviour
+public class TimeCount2nd : MonoBehaviour
 {
     // シーンで共有するストップウォッチ
     public static float time = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
+        time = TimeCount.getTime();
     }
 
     // Update is called once per frame
