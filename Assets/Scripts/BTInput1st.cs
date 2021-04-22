@@ -255,7 +255,7 @@ public class BTInput1st : MonoBehaviour
 
                 Correct();
                 // enemyHPBar.csのメソッドhp_decrease()を実行
-                enemy_hp = enemyHpBar.GetComponent<enemyHPBar>().hp_decrease();
+                enemy_hp = enemyHpBar.GetComponent<EnemyHp_1st>().hp_decrease();
                 Debug.Log("enemy_hp: " + enemy_hp);
 
                 bool once_attack = false;
@@ -275,7 +275,7 @@ public class BTInput1st : MonoBehaviour
 
                 Mistake();
                 // playerHPBar.csのメソッドhp_decrease()を実行
-                player_hp = playerHpBar.GetComponent<playerHPBar>().hp_decrease();
+                player_hp = playerHpBar.GetComponent<PlayerHp_1st>().hp_decrease();
                 Debug.Log("player_hp: " + player_hp);
                 Input_Flag = true;
 
