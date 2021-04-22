@@ -275,7 +275,8 @@ public class BTInputTutorial : MonoBehaviour
 
                 Mistake();
                 // playerHPBar.csのメソッドhp_decrease()を実行
-                player_hp = playerHpBar.GetComponent<playerHPBar>().hp_decrease();
+                // チュートリアルではHpの減少ナシのため削除
+                // player_hp = playerHpBar.GetComponent<playerHPBar>().hp_decrease();
                 Debug.Log("player_hp: " + player_hp);
                 Input_Flag = true;
 

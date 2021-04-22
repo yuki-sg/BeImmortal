@@ -163,7 +163,7 @@ public class BTInput2nd : MonoBehaviour
         if (enemy_hp > 0 && player_hp > 0)
         {
             // ここに time = countdown();
-            float time = time_slider.GetComponent<timeSlider>().countdown();
+            float time = time_slider.GetComponent<TimeSlider_2nd>().countdown();
             if (time <= 0)
             {
                 Input_Flag = false;
@@ -251,11 +251,11 @@ public class BTInput2nd : MonoBehaviour
             {
                 // ここに current_time=0 を入れる
                 // もしくは時間を止める
-                time_slider.GetComponent<timeSlider>().count_reset();
+                time_slider.GetComponent<TimeSlider_2nd>().count_reset();
 
                 Correct();
                 // enemyHPBar.csのメソッドhp_decrease()を実行
-                enemy_hp = enemyHpBar.GetComponent<enemyHPBar>().hp_decrease();
+                enemy_hp = enemyHpBar.GetComponent<EnemyHp_2nd>().hp_decrease();
                 Debug.Log("enemy_hp: " + enemy_hp);
 
                 bool once_attack = false;
@@ -271,11 +271,11 @@ public class BTInput2nd : MonoBehaviour
             {
                 // ここに current_time=0 を入れる
                 // もしくは時間を止める
-                time_slider.GetComponent<timeSlider>().count_reset();
+                time_slider.GetComponent<TimeSlider_2nd>().count_reset();
 
                 Mistake();
                 // playerHPBar.csのメソッドhp_decrease()を実行
-                player_hp = playerHpBar.GetComponent<playerHPBar>().hp_decrease();
+                player_hp = playerHpBar.GetComponent<PlayerHp_2nd>().hp_decrease();
                 Debug.Log("player_hp: " + player_hp);
                 Input_Flag = true;
 

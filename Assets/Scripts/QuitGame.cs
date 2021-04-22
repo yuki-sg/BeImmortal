@@ -7,7 +7,6 @@ public class QuitGame : MonoBehaviour
     void Quit() 
     {
         Application.Quit ();
-        UnityEditor.EditorApplication.isPlaying = false;
     }
 
     // Update is called once per frame
