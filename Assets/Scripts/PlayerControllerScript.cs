@@ -4,40 +4,46 @@ using UnityEngine;
 
 public class PlayerControllerScript : MonoBehaviour
 {
-
-    Rigidbody2D rigid2D;
-    Animator animator;
-    float walk = 10.0f;
-    float maxSpeed = 2.0f;
-
+    private Animator anim;
+    GameObject Player;
+    GameObject Enemy;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        this.rigid2D = GetComponent<Rigidbody2D>();
-        this.animator = GetComponent<Animator>();
-
+        /*
+        anim = gameObject.GetComponent<Animator>();
+        */
+        this.Player = GameObject.Find("Player");
+        this.Enemy = GameObject.Find("Enemy");
     }
 
     // Update is called once per frame
     void Update()
     {
-        int key = 0;
-
-        //プレイヤの速度
-        float speedx = Mathf.Abs(this.rigid2D.velocity.x);
-
-        //スピード制限
-        if (speedx < this.maxSpeed)
+        /*
+        if (Input.GetKey(KeyCode.Space))
         {
-            this.rigid2D.AddForce(transform.right * key * this.walk);
-
+            anim.SetBool("blwalk", true);
         }
+        else if (Input.GetKey(KeyCode.F1))
+        {
+            anim.SetBool("blattack", false);
+        }
+ */
 
-        //プレイヤの速度に応じてアニメーション速度を変える
-        this.animator.speed = speedx / 2.0f;
+        //当たり判定
+        Vector2 p1 = this.Enemy.transform.position;
+        Vector2 p2 = this.Player.transform.position;
+        Vector2 dir = p1 - p2;
+        float d = dir.magnitude;
+        float r1 = 1.0f;
+        float r2 = 1.0f;
     }
 }
+
+
+   
 
     
