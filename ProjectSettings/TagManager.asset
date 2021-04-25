@@ -43,12 +43,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Coin
+  - name: Background
     uniqueID: 3534837493
     locked: 0
-  - name: Block
+  - name: Player
     uniqueID: 2494971979
     locked: 0
-  - name: UI
+  - name: BlackPanel
     uniqueID: 4086813705
+    locked: 0
+  - name: Text
+    uniqueID: 1272234269
+    locked: 0
+  - name: Vignetting
+    uniqueID: 1787413649
+    locked: 0
+  - name: Fade
+    uniqueID: 3413577951
     locked: 0
