@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/G_Test.meta
 guid: f1e02ae4b8ed2244aa2c0e83cb8bffb3
+=======
+guid: e9f6e7be771ae2b418746f8ac8c92902
+>>>>>>> master:Assets/BGM.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

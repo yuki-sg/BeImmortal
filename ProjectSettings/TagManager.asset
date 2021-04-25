@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DamageObject
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4080329033
+    locked: 0
+  - name: Player
+    uniqueID: 989811015
+    locked: 0
+  - name: BlackPanel
+    uniqueID: 3195592049
+    locked: 0
+  - name: Text
+    uniqueID: 3144914047
+    locked: 0
+  - name: Vignetting
+    uniqueID: 1463037911
+    locked: 0
+  - name: Fade
+    uniqueID: 2188434395
+    locked: 0
