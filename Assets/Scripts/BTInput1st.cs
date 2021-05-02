@@ -311,6 +311,7 @@ public class BTInput1st : MonoBehaviour
 
                 // ここにフェードアウトもしくはシーン遷移
                 fade_out.GetComponent<fadeOut>().fade_out();
+                load.GetComponent<Load_LoseResult>().nextScene();
             }
             player.GetComponent<enemy_blinker>().disappear();
         }
